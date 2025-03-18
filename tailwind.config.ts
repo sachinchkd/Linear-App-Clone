@@ -13,6 +13,12 @@ const config: Config = {
         primary: "#1DA1F2", // Custom blue
         secondary: "#14171A", // Custom dark
       },
+
+      fontSize:{
+        md:"1.6rem",
+        lg:"2.2rem",
+        "5xl":"8rem",
+      },
       fontFamily:{
         sans:'"Inter Variable", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif'
       },

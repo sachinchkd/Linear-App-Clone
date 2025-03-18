@@ -3,7 +3,7 @@
 
 @layer base{
   html {
-    @apply bg-background font-sans;
+    @apply bg-background font-sans text-white;
   }
 }
 

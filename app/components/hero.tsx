@@ -5,9 +5,9 @@ interface HeroProps {
 
 export const Hero = ({ title , subtitle }: HeroProps)=>{
     return (
-        <div>
-            <h1>{title}</h1>
-            <p>{subtitle}</p>
+        <div className="text-center">
+            <h1 className="text-5xl">{title}</h1>
+            <p className="text-lg">{subtitle}</p>
         </div>
     );
 }
