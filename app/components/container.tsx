@@ -1,5 +1,5 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 
 export const Container = ({ children }: { children: ReactNode }) => {
-    return <div className="w-[1248px]">{children}</div>;
+    return <div className="max-w-[64rem] mx-auto">{children}</div>;
 }

@@ -10,15 +10,22 @@ const config: Config = {
     extend: {
       colors: {
         background:"#08090a",
-        primary: "#1DA1F2", // Custom blue
-        secondary: "#14171A", // Custom dark
+        primary: "#f7f8f8", // Custom blue
+        secondary: "#d0d6e0", // Custom dark
+        tertiary:"#8a8f98"
       },
 
       fontSize:{
-        md:"1.6rem",
-        lg:"2.2rem",
-        "5xl":"8rem",
+        md:"1rem",
+        lg:"1.3125rem",
+        "5xl":["3.5rem","1.1"],
       },
+
+      fontWeight: {
+        'extrabold': '510',  // Custom font-weight for lg
+        'bold': '538', // Custom font-weight for 5xl
+      },
+
       fontFamily:{
         sans:'"Inter Variable", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif'
       },

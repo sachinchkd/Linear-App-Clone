@@ -1,5 +1,5 @@
 import { Container } from "./components/container";
-import { Hero } from "./components/hero";
+import { Hero, HeroSubtitle, HeroTitle } from "./components/hero";
 
 
 export default function Home() {
@@ -10,10 +10,18 @@ export default function Home() {
       </header>
       <main>
         <Container>
-          <Hero
-            title="Linear is a purpose-built tool for planning and building products"
-            subtitle="Meet the system for modern software development. Streamline issues, projects, and product roadmaps."
-          />
+          <Hero>
+            <HeroTitle>
+            Linear is a purpose-built tool for
+            <br/>planning and building products
+            </HeroTitle>
+            <HeroSubtitle>
+            Meet the system for modern software development.
+            <br/>
+            Streamline issues, projects, and product roadmaps.
+            </HeroSubtitle>
+          </Hero>
+            
         </Container>
       </main>
       <footer>
